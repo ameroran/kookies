@@ -102,9 +102,9 @@ var hours =['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm'
 var Dubai ={
 name: "Dubai Salmon",
 
-max: 65,
-min: 23,
-avgCoockies: 6.3,
+max: 38, 
+min: 11,
+avgCoockies: 3.7,
 cookiesPerHoursArr: [],
 totalArr: 0,
 
@@ -171,9 +171,9 @@ var hours =['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm'
 var Tokyo ={
 name: "Tokyo Salmon",
 
-max: 65,
-min: 23,
-avgCoockies: 6.3,
+max: 24,
+min: 3,
+avgCoockies: 1.2,
 cookiesPerHoursArr: [],
 totalArr: 0,
 
@@ -240,9 +240,9 @@ var hours =['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm'
 var Lima ={
 name: "Lima Salmon",
 
-max: 65,
-min: 23,
-avgCoockies: 6.3,
+max: 16,
+min: 2,
+avgCoockies: 4.6,
 cookiesPerHoursArr: [],
 totalArr: 0,
 
@@ -305,9 +305,9 @@ var hours =['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm'
 var Paris ={
 name: "Paris Salmon",
 
-max: 65,
-min: 23,
-avgCoockies: 6.3,
+max: 38,
+min: 20,
+avgCoockies: 2.3,
 cookiesPerHoursArr: [],
 totalArr: 0,
 
