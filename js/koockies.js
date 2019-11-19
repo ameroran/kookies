@@ -10,7 +10,7 @@ container.appendChild(tableEl);
 // var totals =[];
 var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
-function store(name, min, max, avgCoockies) {
+function Store(name, min, max, avgCoockies) {
     this.name = name;
     this.max = max;
     this.min = min;
@@ -26,14 +26,14 @@ function store(name, min, max, avgCoockies) {
 
 
 
-store.prototype.randomCustomer = function () {
+Store.prototype.randomCustomer = function () {
 
     return Math.ceil(Math.random() * (this.max - this.min + 1)) + this.min;
 
 }
 
 
-store.prototype.cookiesPerHours = function () {
+Store.prototype.cookiesPerHours = function () {
 
     for (var j = 0; j < hours.length; j++) {
         this.cookiesPerHoursArr.push(Math.ceil(this.randomCustomer() * this.avgCoockies));
@@ -44,10 +44,10 @@ store.prototype.cookiesPerHours = function () {
 function handleSubmit(event){
     event.preventDefault();
     var name= event.target.name.value;
-    var min= event.target.min.value;
-    var max= event.target.max.value;
-    var avgCoockies= event.target.avg.value;
-    var newstore= new store(name,min,max,avgCoockies);
+    var min= parseInt(event.target.min.value);
+    var max= parseInt(event.target.max.value);
+    var avgCoockies= parseFloat(event.target.avg.value);
+    var newstore= new Store(name,min,max,avgCoockies);
     
     // stores.push(newstore);
     
@@ -86,7 +86,7 @@ function renderHeader() {
 
 }
 
-store.prototype.render = function() {
+Store.prototype.render = function() {
 
     var trEl = document.createElement("tr");
     tableEl.appendChild(trEl);
@@ -104,11 +104,11 @@ store.prototype.render = function() {
     totalTdEl.textContent = this.total;
 };
 
-var seattle = new store("Seattle", 23, 65, 6.3);
-var tokyo = new store("Tokyo", 3, 24, 1.2);
-var dubai = new store("Dubai", 11, 38, 3.7);
-var paris = new store("Paris", 20, 38, 2.3);
-var lima = new store("Lima", 2, 16, 4.6);
+var seattle = new Store("Seattle", 23, 65, 6.3);
+var tokyo = new Store("Tokyo", 3, 24, 1.2);
+var dubai = new Store("Dubai", 11, 38, 3.7);
+var paris = new Store("Paris", 20, 38, 2.3);
+var lima = new Store("Lima", 2, 16, 4.6);
 
 
 
