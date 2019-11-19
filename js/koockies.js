@@ -1,6 +1,7 @@
 'use strict'
 
 var stores = [];
+var form = document.getElementById("Storesform");
 
 var container = document.getElementById("cookies");
 var tableEl = document.createElement("table");
@@ -40,6 +41,31 @@ store.prototype.cookiesPerHours = function () {
     };
 
 }
+function handleSubmit(event){
+    event.preventDefault();
+    var name= event.target.name.value;
+    var min= event.target.min.value;
+    var max= event.target.max.value;
+    var avgCoockies= event.target.avg.value;
+    var newstore= new store(name,min,max,avgCoockies);
+    
+    // stores.push(newstore);
+    
+    var rowCount = tableEl.rows.length;
+    tableEl.deleteRow(rowCount -1);
+    
+
+    newstore.render();
+    renderFooter();
+    
+}
+
+    
+    
+
+
+form.addEventListener('submit', handleSubmit);
+// renderFooter();
 
 function renderHeader() {
 
@@ -93,6 +119,7 @@ var lima = new store("Lima", 2, 16, 4.6);
     var tdEl = document.createElement("td");
     trEl.appendChild(tdEl);
     tdEl.textContent = "Total";
+
     var megaTotal = 0;
     for (let i = 0; i < hours.length; i++) {
       var sum = 0;
@@ -110,10 +137,6 @@ var lima = new store("Lima", 2, 16, 4.6);
   }
 
 renderHeader();
-// for (let i = 0; i < stores.length; i++) {
-
-//     stores[i].render();
-// }
 
 
 seattle.render();
