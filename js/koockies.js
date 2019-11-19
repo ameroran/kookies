@@ -57,7 +57,7 @@ function handleSubmit(event){
 
     newstore.render();
     renderFooter();
-    
+    form.reset();
 }
 
     
