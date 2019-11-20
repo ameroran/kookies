@@ -46,8 +46,8 @@ function handleSubmit(event){
     var name= event.target.name.value;
     var min= parseInt(event.target.min.value);
     var max= parseInt(event.target.max.value);
-    var avgCoockies= parseFloat(event.target.avg.value);
-    var newstore= new Store(name,min,max,avgCoockies);
+    var avg= parseFloat(event.target.avg.value);
+    var newstore= new Store(name,min,max,avg);
     
     // stores.push(newstore);
     
