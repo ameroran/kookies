@@ -60,9 +60,6 @@ function handleSubmit(event){
     form.reset();
 }
 
-    
-    
-
 
 form.addEventListener('submit', handleSubmit);
 // renderFooter();
