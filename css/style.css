@@ -1,11 +1,13 @@
-html{
+/* html{
     background-image: url(/img/90079.jpg);
 
-}
+} */
 
 
 body{
 width: 100%;
+background-image: url(/img/90079.jpg);
+
 /* background-image: url(/img/Untitled.png);
     background-repeat: no-repeat;
     background-position: right center;
@@ -185,11 +187,9 @@ input:hover{
     background-image: url(/img/pic.jpeg);
     font-family:cursive;
     
-}
+ }
 
-#Table{
-    background-image: url(/img/90079.jpg);
-}
+
 
  th,td {
     padding: 85px;
