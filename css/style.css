@@ -1,0 +1,255 @@
+html{
+    background-image: url(/img/90079.jpg);
+
+}
+
+
+body{
+width: 100%;
+/* background-image: url(/img/Untitled.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-right: 20px;
+    background-attachment: fixed;  */
+}
+
+
+legend:hover{
+    color: rgb(230, 0, 0);
+    transition: 900ms;
+}
+
+main header p:hover{
+    /* text-align: center; */
+    /* font-size: 100px; */
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    margin: 0px;
+    /* color: black; */
+    color: rgb(230, 0, 0);
+    transition: 900ms;
+}
+
+#logo{
+    float: left;
+    width: 220px;
+    margin-top: 10px;
+}
+
+main header section p {
+    margin-left: 250px;
+    font-size: 80px;
+    color: black;
+    margin-top: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+main header section li{
+    /* margin: -75px; */
+    display: inline;
+    margin-left: 600px;
+    font-size: 40px;
+    /* text-decoration: none; */
+    color: black;
+    /* border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px; */
+
+
+}
+
+
+main p {
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: black;
+}
+
+main nav ul li:hover{
+    scale: 1.5;
+    color: white;
+    transition: 900ms;
+}
+
+main nav ul li{
+    /* display: inline; */
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 180px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(/img/salmon.png);
+    width: 65px;
+    /* color:white; */
+    border-collapse: collapse;
+    /* color: rgb(3, 123, 128); */
+    /* transition: 900ms; */    
+}
+
+#zero{
+    /* text-align: center; */
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+}
+
+#one{
+   
+    margin-bottom: 20px;
+    margin-left: 550px;
+}
+
+#two{
+    margin-bottom: 20px;
+    margin-left:650px;
+}
+#three{
+        margin-bottom: 20px;
+    margin-left: 750px;
+}
+#four{
+ 
+    margin-bottom: 20px;
+    margin-left: 850px;
+}
+
+
+main h3 {
+    clear: both;
+ margin-top: 180px;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    border: 2px solid black;
+    width: 630px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 335px;
+    margin-bottom: 50px;
+    color: black;
+}
+/* 
+footer{
+    float: right;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    background-image: url(/img/69276_wall-background-hd.jpg);
+
+} */
+
+
+#last{
+    float: right; 
+     margin-top: 15px;
+    margin-left: 270px;
+ } 
+
+
+label:hover{
+    color: rgb(3, 123, 128);
+    transition: 900ms;
+}
+input:hover{
+    background-color: rgba(247, 231, 9, 0.356);
+    transition: 900ms;
+}
+
+
+
+#cookies:hover{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    margin-top: 50px;
+    width: 900px;
+    margin-left: 200px;
+    color: rgb(10, 2, 6);
+    transition: 900ms;
+    background-image: url(/img/pic.jpeg);
+    font-family:cursive;
+    
+}
+
+#Table{
+    background-image: url(/img/90079.jpg);
+}
+
+ th,td {
+    padding: 85px;
+    text-align: center;
+}
+
+body fieldset{
+    font-size: 20px;
+    margin: 45px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: cursive;
+
+
+}
+
+article{
+    margin-right: 400px;
+}
+
+#submit{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(4, 118, 122);
+    font-family: cursive;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: -350px;
+}
+
+#name{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 700px;
+}
+
+#min{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+
+}
+
+#max{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+
+}
+
+#avg{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
