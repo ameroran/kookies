@@ -161,6 +161,19 @@ footer{
  } 
 
 
+ #homepage{ 
+    display: inline;
+    text-decoration: none;
+    color: rgb(36, 15, 228); 
+    margin: 50px;
+    float: right;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+
+ }  
+
+
 label:hover{
     color: rgb(3, 123, 128);
     transition: 900ms;
@@ -184,7 +197,7 @@ input:hover{
     margin-left: 200px;
     color: rgb(10, 2, 6);
     transition: 900ms;
-    background-image: url(/img/pic.jpeghttps://www.muinteoirvalerie.com/wp-content/uploads/pexels-photo-255379-1-1.jpeg);
+    background-image: url(https://www.muinteoirvalerie.com/wp-content/uploads/pexels-photo-255379-1-1.jpeg);
     font-family:cursive;
     
  }
@@ -219,6 +232,8 @@ article{
     margin-top: 10px;
     font-size: 20px;
     margin-right: -350px;
+    cursor: pointer;
+
 }
 
 #name{
